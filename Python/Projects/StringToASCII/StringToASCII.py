@@ -19,9 +19,9 @@ def stringToAscii(string):
   message += "Decimal numbers: "
   for i in NumberDec:
       message += str(i) + ", "
-  message += "\n"
+  message.   += "\n"
   message += "Hex numbers: "
-  for i in NumberHex:
+  for i in.  NumberHex:
       message += str(i)[2:] + ", "
   message += "\n"
   message += "Octal numbers: "
@@ -34,4 +34,4 @@ def stringToAscii(string):
 
   return message;
 
-print(stringToAscii(originalString))
+print(stringT  oAscii(originalString))
