@@ -33,10 +33,12 @@ y2= int(input())
 point1 = [x1,y1]
 point2 = [x2, y2]
 
+
+
 x_values = [point1[0], point2[0]]
 
-
-y_values = [point1[1], point2[1]]
+ 
+y_values = [point1[1], point2. [1]]
 
 
 plt.plot(x_values,y_values)
